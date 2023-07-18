@@ -21,9 +21,12 @@
         <div class="container">
             <nav>
                 <ul class="nav justify-content-center">
-                    <li class="nav-item"><a href="#" class="nav-link">Tráfego Pago</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Desenho e animação</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Geração de conteúdo</a></li>
+                    <li class="nav-item bg-primary m-1 rounded-circle nav-list">
+                        <a href="trafego.html" class="nav-link text-white text-center fw-bold fs-3">Tráfego Pago</a></li>
+                        <li class="nav-item bg-success m-1 rounded-circle nav-list2 text-center">
+                        <a href="desenho.html" class="nav-link text-white fw-bold mt-5 fs-3"> Desenho <br> e animação</a></li>
+                        <li class="nav-item bg-danger m-1 rounded-circle nav-list2">
+                        <a href="conteudo.html" class="nav-link text-white text-center mt-5 fs-3 fw-bold">Geração <br> de conteúdo</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,10 +35,40 @@
                 <p>elisa</p>
 
             </section>
-            <form class="col">
-                <p>davi</p>
-
-            </form>
+            <div class="col">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" id="nome" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="whatsapp" class="form-label">Whatsapp:</label>
+                        <input type="tel" id="whatsapp" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" id="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="assunto" class="form-label">Assunto de interesse:</label>
+                        <select id="assunto" class="form-select">
+                            <option>Orçamento</option>
+                            <option>Dúvida</option>
+                            <option>Reclamação</option>
+                            <option>Boletim Whatsapp</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem:</label>
+                        <textarea id="mensagem" rows="4" class="form-control"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            
         </div>
     </main>
     <footer>

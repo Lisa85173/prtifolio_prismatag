@@ -1,0 +1,11 @@
+header{
+    height: 30%;
+    background-color: rgb(236, 0, 0);
+}
+main{
+    height: 50%
+}
+footer{
+    height:20%;
+    background-color:blue
+}

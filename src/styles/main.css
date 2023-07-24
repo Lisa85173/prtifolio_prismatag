@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
 header { 
     height: 250px;
     background-color: rgb(181, 218, 228);
@@ -8,7 +11,6 @@ header img{
 }
 main{
     height: 900px;
-    background-color: rgb(250, 250, 250);
 }
 footer{
     height: 15vh;
